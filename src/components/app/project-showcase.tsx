@@ -15,7 +15,7 @@ export function ProjectShowcase({ projects }: ProjectShowcaseProps) {
     <div className="space-y-12">
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <div className="space-y-2">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Projects</h2>
+          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">My Projects</h2>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             A selection of my web development work. Each project showcases my ability to deliver functional and user-friendly applications.
           </p>

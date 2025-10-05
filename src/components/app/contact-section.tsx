@@ -10,7 +10,7 @@ export function ContactSection() {
            <Network className="h-8 w-8 text-primary" />
            <span className="ml-2 text-xl font-bold">Network Weaver</span>
         </div>
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">Get In Touch</h2>
+        <h2 className="text-2xl md:text-3xl font-headline font-bold mb-4">Get In Touch</h2>
         <p className="text-muted-foreground max-w-lg mx-auto mb-8">
           I'm currently open to new opportunities. Feel free to reach out via email, phone, or connect with me on LinkedIn.
         </p>

@@ -47,7 +47,7 @@ export default function Home() {
         </Section>
         <Section id="tools">
            <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">AI-Powered Portfolio Tools</h2>
+            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">AI-Powered Portfolio Tools</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-4">
               Leverage GenAI to enhance and analyze portfolio content.
             </p>

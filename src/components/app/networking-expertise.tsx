@@ -11,14 +11,14 @@ export function NetworkingExpertise({ certifications, experience }: NetworkingEx
   return (
     <div className="flex flex-col gap-8">
        <div>
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">About Me</h2>
+        <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">About Me</h2>
         <p className="text-muted-foreground mt-2 md:text-xl/relaxed">
           My expertise lies at the intersection of network engineering and modern web development.
         </p>
       </div>
       <Card>
         <CardHeader>
-          <CardTitle>Networking & Security</CardTitle>
+          <CardTitle className="font-headline">Networking & Security</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           <p className="text-muted-foreground">
@@ -40,7 +40,7 @@ export function NetworkingExpertise({ certifications, experience }: NetworkingEx
       {experience && (
         <Card>
           <CardHeader>
-            <CardTitle>Experience Summary</CardTitle>
+            <CardTitle className="font-headline">Experience Summary</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">{experience}</p>

@@ -51,7 +51,7 @@ export function SkillSuggester() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>AI Skill Suggester</CardTitle>
+        <CardTitle className="font-headline">AI Skill Suggester</CardTitle>
         <CardDescription>
           Enter a project description to get AI-powered suggestions for relevant skills to highlight.
         </CardDescription>

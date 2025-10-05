@@ -55,7 +55,7 @@ export function ResumeAnalyzer({ onAnalysisComplete }: ResumeAnalyzerProps) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Resume Analyzer</CardTitle>
+        <CardTitle className="font-headline">Resume Analyzer</CardTitle>
         <CardDescription>
           Upload your resume (PDF or image) to automatically populate your skills, experience, and certifications.
         </CardDescription>
