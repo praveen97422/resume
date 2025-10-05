@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import type { ExtractSkillsFromResumeOutput } from '@/ai/flows/resume-skills-extractor';
 import { Header } from '@/components/app/header';
 import { HeroSection } from '@/components/app/hero-section';
 import { ProjectShowcase } from '@/components/app/project-showcase';
@@ -9,27 +8,14 @@ import { SkillsMatrix } from '@/components/app/skills-matrix';
 import { initialSkills, projects } from '@/lib/data';
 import { Section } from '@/components/app/section';
 import { NetworkingExpertise } from '@/components/app/networking-expertise';
-import { ResumeAnalyzer } from '@/components/app/resume-analyzer';
 import { Separator } from '@/components/ui/separator';
 import { SkillSuggester } from '@/components/app/skill-suggester';
 import { ContactSection } from '@/components/app/contact-section';
 
 export default function Home() {
   const [currentSkills, setCurrentSkills] = useState<string[]>(initialSkills);
-  const [experience, setExperience] = useState<string | null>(null);
-  const [certifications, setCertifications] = useState<string[]>(['CCNP']);
-
-  const handleResumeAnalyzed = (data: ExtractSkillsFromResumeOutput) => {
-    const newSkills = [...new Set([...currentSkills, ...data.skills])];
-    setCurrentSkills(newSkills);
-
-    if (data.experience) {
-      setExperience(data.experience);
-    }
-    
-    const newCerts = [...new Set([...certifications, ...data.certifications])];
-    setCertifications(newCerts);
-  };
+  const [experience] = useState<string | null>(null);
+  const [certifications] = useState<string[]>(['CCNP']);
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -52,8 +38,7 @@ export default function Home() {
               Leverage GenAI to enhance and analyze portfolio content.
             </p>
           </div>
-          <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-2">
-            <ResumeAnalyzer onAnalysisComplete={handleResumeAnalyzed} />
+          <div className="grid gap-8 md:grid-cols-1 max-w-2xl mx-auto">
             <SkillSuggester />
           </div>
         </Section>
