@@ -13,7 +13,7 @@ export const projects = [
     link: 'https://dreams-sigma.vercel.app/login',
     image: {
       id: 'diwali-gifting',
-      imageUrl: '/assets/DIWALI.png',
+      imageUrl: '/assets/progress.png',
       imageHint: 'corporate gifting'
     },
   },
