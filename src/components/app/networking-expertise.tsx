@@ -11,7 +11,7 @@ export function NetworkingExpertise({ certifications, experience }: NetworkingEx
   return (
     <div className="flex flex-col gap-8">
        <div>
-        <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl">About Me</h2>
+        <h2 className="text-3xl font-headline font-bold sm:text-4xl">About Me</h2>
         <p className="text-muted-foreground mt-2 md:text-xl/relaxed">
           My expertise lies at the intersection of network engineering and modern web development.
         </p>

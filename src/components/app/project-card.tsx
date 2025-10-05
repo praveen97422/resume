@@ -33,7 +33,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           </div>
       )}
       <CardHeader>
-        <CardTitle>{project.name}</CardTitle>
+        <CardTitle className="font-headline">{project.name}</CardTitle>
         <CardDescription>{project.description}</CardDescription>
       </CardHeader>
       <CardFooter className="mt-auto">
