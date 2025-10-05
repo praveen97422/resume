@@ -11,25 +11,41 @@ export const projects = [
     name: 'Diwali Gifting for Progress.com',
     description: 'A corporate gifting web application for Diwali, created for Progress.com.',
     link: 'https://dreams-sigma.vercel.app/login',
-    image: PlaceHolderImages.find(img => img.id === 'dreams-sigma'),
+    image: {
+      id: 'diwali-gifting',
+      imageUrl: '/assets/DIWALI.png',
+      imageHint: 'corporate gifting'
+    },
   },
   {
     name: 'Box Production',
     description: 'A corporate website for a production company, built to showcase their services, portfolio, and professional brand identity.',
     link: 'https://box-production.com/',
-    image: PlaceHolderImages.find(img => img.id === 'box-production'),
+    image: {
+      id: 'box-production',
+      imageUrl: '/assets/BOX PRODUCTIONS.png',
+      imageHint: 'corporate website'
+    },
   },
   {
     name: 'Havya',
     description: 'A feature-rich e-commerce and shopping application with a modern user interface.',
     link: 'https://havya.vercel.app/',
-    image: PlaceHolderImages.find(img => img.id === 'havya'),
+    image: {
+      id: 'havya',
+      imageUrl: '/assets/HAVYA.png',
+      imageHint: 'ecommerce shopping'
+    },
   },
   {
     name: 'NextStep',
     description: 'An engaging landing page for a startup, crafted to attract new users and potential investors with a compelling value proposition.',
     link: 'https://nextstep-ten-mu.vercel.app/',
-    image: PlaceHolderImages.find(img => img.id === 'nextstep'),
+    image: {
+      id: 'nextstep',
+      imageUrl: '/assets/NEXT STEP.png',
+      imageHint: 'career counseling'
+    },
   },
 ];
 
