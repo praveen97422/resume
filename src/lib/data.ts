@@ -9,7 +9,7 @@ export const contactDetails = {
 export const projects = [
   {
     name: 'Dreams',
-    description: 'A comprehensive web application for managing dreams and goals, featuring user authentication and a sleek interface.',
+    description: 'A corporate gifting web application for Diwali, created for Progress.com.',
     link: 'https://dreams-sigma.vercel.app/login',
     image: PlaceHolderImages.find(img => img.id === 'dreams-sigma'),
   },
@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     name: 'Havya',
-    description: 'A clean and modern personal portfolio website designed to elegantly display creative work and professional achievements.',
+    description: 'A feature-rich e-commerce and shopping application with a modern user interface.',
     link: 'https://havya.vercel.app/',
     image: PlaceHolderImages.find(img => img.id === 'havya'),
   },

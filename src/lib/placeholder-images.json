@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "dreams-sigma",
-      "description": "Login page for Dreams application",
-      "imageUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3ZWIlMjBhcHBsaWNhdGlvbnxlbnwwfHx8fDE3NTk1NjcxMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "web application"
+      "description": "A person receiving a corporate gift",
+      "imageUrl": "https://images.unsplash.com/photo-1572240359949-61e20d00f622?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBnaWZ0aW5nfGVufDB8fHx8MTc1OTg2ODUwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate gifting"
     },
     {
       "id": "box-production",
@@ -14,9 +14,9 @@
     },
     {
       "id": "havya",
-      "description": "Landing page for Havya",
-      "imageUrl": "https://images.unsplash.com/photo-1622562406737-4031b21a253c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cG9ydGZvbGlvJTIwc2l0ZXxlbnwwfHx8fDE3NTk2NjEzODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "portfolio site"
+      "description": "An e-commerce website for clothing",
+      "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxlY29tbWVyY2UlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NTk4Njg2MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ecommerce shopping"
     },
     {
       "id": "nextstep",
