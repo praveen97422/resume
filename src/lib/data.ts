@@ -48,5 +48,13 @@ export const initialSkills = [
   'Tailwind CSS',
   'Git',
   'VLANs',
-  'WAN Technologies'
+  'WAN Technologies',
+  'BGP',
+  'OSPF',
+  'VPN',
+  'DNS',
+  'DHCP',
+  'Network Automation',
+  'QoS',
+  'MPLS'
 ];
