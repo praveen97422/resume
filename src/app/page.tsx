@@ -9,7 +9,6 @@ import { initialSkills, projects } from '@/lib/data';
 import { Section } from '@/components/app/section';
 import { NetworkingExpertise } from '@/components/app/networking-expertise';
 import { Separator } from '@/components/ui/separator';
-import { SkillSuggester } from '@/components/app/skill-suggester';
 import { ContactSection } from '@/components/app/contact-section';
 
 export default function Home() {
@@ -30,17 +29,6 @@ export default function Home() {
         </Section>
         <Section id="projects" className="bg-card">
           <ProjectShowcase projects={projects} />
-        </Section>
-        <Section id="tools">
-           <div className="text-center mb-12">
-            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-4xl md:text-5xl">AI-Powered Portfolio Tools</h2>
-            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-4">
-              Leverage GenAI to enhance and analyze portfolio content.
-            </p>
-          </div>
-          <div className="grid gap-8 md:grid-cols-1 max-w-2xl mx-auto">
-            <SkillSuggester />
-          </div>
         </Section>
         <Separator />
         <ContactSection />
