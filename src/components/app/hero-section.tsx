@@ -29,6 +29,12 @@ export function HeroSection() {
                  LinkedIn
               </Link>
             </Button>
+            <Button variant="secondary" asChild>
+              <Link href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer">
+                 <Download className="mr-2 h-4 w-4" />
+                 Resume
+              </Link>
+            </Button>
           </div>
         </div>
       </div>
