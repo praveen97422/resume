@@ -4,7 +4,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Network Weaver | Praveen Raj',
+  title: 'Portfolio | Praveen Raj',
   description: "Praveen Raj's portfolio showcasing expertise in networking and web development.",
 };
 

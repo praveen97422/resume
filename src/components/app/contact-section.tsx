@@ -8,7 +8,7 @@ export function ContactSection() {
       <div className="container mx-auto px-4 md:px-6 text-center">
         <div className="flex justify-center items-center mb-4">
            <Network className="h-8 w-8 text-primary" />
-           <span className="ml-2 text-xl font-bold">Network Weaver</span>
+           <span className="ml-2 text-xl font-bold">Portfolio</span>
         </div>
         <h2 className="text-2xl md:text-3xl font-headline font-bold mb-4">Get In Touch</h2>
         <p className="text-muted-foreground max-w-lg mx-auto mb-8">

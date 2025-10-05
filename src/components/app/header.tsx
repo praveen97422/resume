@@ -21,7 +21,7 @@ export function Header() {
       <Link href="#" className="flex items-center justify-center" passHref>
         <div className="flex items-center gap-2 cursor-pointer">
           <Network className="h-6 w-6 text-primary" />
-          <span className="text-xl font-bold tracking-tight">Network Weaver</span>
+          <span className="text-xl font-bold tracking-tight">Portfolio</span>
         </div>
       </Link>
       <nav className="ml-auto hidden md:flex items-center gap-6">
@@ -49,7 +49,7 @@ export function Header() {
               <Link href="#" className="flex items-center gap-2" passHref>
                  <div className="flex items-center gap-2 cursor-pointer" onClick={() => setIsSheetOpen(false)}>
                     <Network className="h-6 w-6 text-primary" />
-                    <span className="text-lg font-bold">Network Weaver</span>
+                    <span className="text-lg font-bold">Portfolio</span>
                  </div>
               </Link>
               {navLinks.map((link) => (
