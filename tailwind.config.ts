@@ -11,7 +11,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        headline: ['Poppins', 'sans-serif'],
+        headline: ['Cinzel', 'serif'],
         code: ['monospace'],
       },
       colors: {
