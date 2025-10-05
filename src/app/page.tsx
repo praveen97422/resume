@@ -13,7 +13,9 @@ import { ContactSection } from '@/components/app/contact-section';
 
 export default function Home() {
   const [currentSkills, setCurrentSkills] = useState<string[]>(initialSkills);
-  const [experience] = useState<string | null>(null);
+  const [experience] = useState<string>(
+    'Gained hands-on experience as a Web Development Intern at TekSolvent, developing and optimizing the frontend of an HRMS project using React. Also served as a Content Marketing Intern at IgniPC, creating detailed blog posts on PC hardware and interacting with users to provide tailored solutions for PC building.'
+  );
   const [certifications] = useState<string[]>(['CCNP']);
 
   return (
