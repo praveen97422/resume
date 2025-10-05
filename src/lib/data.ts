@@ -8,7 +8,7 @@ export const contactDetails = {
 
 export const projects = [
   {
-    name: 'Dreams',
+    name: 'Diwali Gifting for Progress.com',
     description: 'A corporate gifting web application for Diwali, created for Progress.com.',
     link: 'https://dreams-sigma.vercel.app/login',
     image: PlaceHolderImages.find(img => img.id === 'dreams-sigma'),
